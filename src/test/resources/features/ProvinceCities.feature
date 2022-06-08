@@ -1,6 +1,6 @@
 Feature: Test Province Cities API
   Scenario Outline:
-    Given User have access to url "http://localhost".
+    Given User have access to url "https://canadacities.herokuapp.com".
     When user call end point "/cities/{provinceCode}" with province code "<province_code>".
     Then status code should be <status_code>.
     And it should have content type "application/json".
