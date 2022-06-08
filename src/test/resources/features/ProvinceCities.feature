@@ -7,6 +7,6 @@ Feature: Test Province Cities API
     And it should have a city count of <city_count>.
     Examples:
       | province_code | status_code | city_count |
-      | AB | 200 | 8 |
+      | NB | 200 | 8 |
+      | NL | 200 | 3 |
       | ON | 200 | 1 |
-      | NB | 200 | 1 |
